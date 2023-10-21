@@ -1,0 +1,45 @@
+name: "New Article"
+description: Write an article to be added to the community site
+labels: ["new article"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a suggested article for us to include on the site?
+        Feel free to suggest it here, or via pull request!
+  - type: checkboxes
+    attributes:
+      label: Requirements
+      description: Before submitting, please verify the following
+      options:
+        - label: This is related to GrapheneOS or Android privacy or security
+          required: true
+        - label: Have you verified the content is not already available on the site?
+          required: true
+  - type: input
+    id: title
+    attributes:
+      label: Article Title
+      description: |
+        Please write a title that's short and descriptive.
+        No special characters, like quotation marks or semi-colons.
+    validations:
+      required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: Short Description of Article
+      description: |
+        Please provide a short description (no more than a few sentences).
+        No special characters, like quotation marks or semi-colons.
+    validations:
+      required: true
+  - type: textarea
+    id: article
+    attributes:
+      label: Article Content
+      description: |
+        Please copy and paste your article content here, or if you have a link
+        to an `.md` file elsewhere, please paste the link here.
+    validations:
+      required: true

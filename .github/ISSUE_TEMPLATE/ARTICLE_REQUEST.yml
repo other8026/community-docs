@@ -1,0 +1,24 @@
+name: "Article Request"
+description: Request that we write an article on something you're curious about
+labels: ["article request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Is there some information that you would like to know that is not on the website?
+        If so, maybe we can help.
+  - type: checkboxes
+    attributes:
+      label: Requirements
+      description: Before submitting, please verify the following
+      options:
+        - label: This is related to GrapheneOS or Android privacy or security
+          required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Article Request
+      description: |
+        Please let us know about what you are looking for here.
+    validations:
+      required: true

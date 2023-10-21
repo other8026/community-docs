@@ -1,0 +1,32 @@
+name: "Article Feedback"
+description: Give us feedback on an article that's already posted
+labels: ["article feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have you found an issue with an article on the site?
+        If so, let us know here!
+  - type: checkboxes
+    attributes:
+      label: Requirements
+      description: Before submitting, please verify the following
+      options:
+        - label: This is an article already posted on the community website
+          required: true
+  - type: input
+    id: article-link
+    attributes:
+      label: Article Link
+      description: |
+        Please paste a link to the article here
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: |
+        Please write your feedback here.
+    validations:
+      required: true

@@ -1,0 +1,17 @@
+{# t = title, d = description, l = permalink #}
+{% macro related(t, d, l) %}
+<div class="suggested-article-card">
+    <h3 class="suggested-article-title"><a href="{{ l }}">{{ t }}</a></h4>
+    <span class="suggested-article-description">{{ d }}</span>
+</div>
+{% endmacro related %}
+
+{# this isn't being used, but leaving this here in case I do use it later #}
+{# the idea is to make it easier for anyone who wants to contribute or is curious to see the source file #}
+{# g = github_url, p = document_path #}
+{% macro doc_info(g, p) %}
+<div id="document_info">
+    <p>This page was generated from <code>{{ p }}</code>.</p>
+    <p>The GitHub url is: <a href="{{ g }}/tree/main/{{ p }}">{{ g }}/tree/main/{{ p }}</a>.</p>
+</div>
+{% endmacro %}

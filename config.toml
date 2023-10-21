@@ -1,0 +1,24 @@
+# The URL the site will be built for
+base_url = "https://other8026.github.io/community-docs"
+title = "GOS Community Docs"
+description = "A community-driven documentation website for GrapheneOS and other related topics."
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[search]
+index_format = "elasticlunr_json"
+include_description = true
+include_content = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+github_url = "https://github.com/other8026/community-docs"
+long_title = "GrapheneOS Community Docs"

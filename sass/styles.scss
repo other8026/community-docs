@@ -1,0 +1,29 @@
+// @use "sass:math";
+
+$color1: #272727;
+$color2: #4B525B;
+$color3: #9B9FA1;
+$color4: #F2EEE2;
+$color5: #D8C8C7;
+
+$header-height: 70px;
+
+#page{
+    display: flex;
+}
+
+nav {
+    width: 27%;
+}
+
+#content {
+    width: 73%;
+}
+
+@import "article";
+@import "defaults";
+@import "header";
+@import "mobile";
+@import "navbar_sidebar";
+@import "search";
+@import "suggested_articles";

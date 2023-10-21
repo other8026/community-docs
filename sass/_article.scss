@@ -1,0 +1,31 @@
+#article {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2em;
+
+    &__title {
+        text-align: center;
+        border-bottom: 2px solid $color2;
+    }
+
+    @mixin code_defaults(){
+        background-color: $color2;
+        color: $color5;
+        font-family: monospace;
+    }
+
+    code {
+        @include code_defaults();
+        padding: 2px;
+    }
+
+    pre {
+        @include code_defaults();
+        padding: 10px;
+    }
+}
+
+#section_articles {
+    padding-left: 20px;
+    padding-right: 20px;
+}

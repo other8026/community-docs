@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {%- block head_meta -%}
+        <meta property="og:title" content = "{{ config.title }}">
+        <meta property="og:url" content = "{{ get_url(path='@/_index.md') }}">
+        <meta property="og:type" content = "website">
+        {%- endblock head_meta -%}
+        <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+        <link rel="stylesheet" href="{{ get_url(path='normalize.css') }}" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ get_url(path='styles.css') }}" crossorigin="anonymous">
+    </head>
+    <body>
+        {% block header %}
+        <header>
+            <div id="header_div">
+                <div id="header_div__title"><a href="{{ get_url(path='@/_index.md') }}">{{ config.title }}</a></div>
+                <div id="header_div__github"><a href="{{ config.extra.github_url }}" target="_blank">GitHub</a></div>
+
+                <div class="search-container">
+                    <input id="search" type="search" placeholder="search">
+                    <div class="search-results">
+                        <div class="search-results__items"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        {% endblock header %}
+        <div id="page">
+        {%- block sidebar %}{% endblock sidebar -%}
+        {%- block content %}{% endblock content -%}
+        </div>
+        {%- block footer %}{# not used for now, but here just in case #}{% endblock footer -%}
+        <script type="text/javascript" src="{{ get_url(path = 'elasticlunr.min.js') }}"></script>
+        <script type="text/javascript" src="{{ get_url(path = 'search.js') }}"></script>
+    </body>
+</html>

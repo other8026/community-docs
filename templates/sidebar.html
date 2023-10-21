@@ -1,0 +1,28 @@
+{%- extends "base.html" -%}
+{%- block sidebar -%}
+{%- set root_section = get_section(path="_index.md") -%}
+
+<nav>
+    <div id="full-sidebar">
+        <ul>
+            {%- for p in root_section.subsections -%}
+                {%- set subsection = get_section(path=p) -%}
+                <li class="section-title">{{ subsection.title }}</li>
+                <ul>
+                    {%- for page in subsection.pages -%}
+                        <li {% if current_path == page.path %} id="active" {% endif %}><a href="{{page.permalink}}">{{page.title}}</a></li>
+                    {% endfor %}
+                </ul>
+            {%- endfor -%}
+            </ul>
+    </div>
+    <div id="mobile-sidebar">
+        <ul>
+            {%- for p in root_section.subsections -%}
+            {%- set subsection = get_section(path=p) -%}
+            <li><a href="{{ subsection.permalink }}">{{ subsection.title }}</a></li>
+            {%- endfor -%}
+        </ul>
+    </div>
+</nav>
+{%- endblock sidebar -%}

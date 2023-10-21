@@ -1,0 +1,39 @@
+{%- extends "base_with_sidebar.html" -%}
+{%- import "macros.html" as macros -%}
+
+
+{%- block head_meta -%}
+<meta name="description" content="{{ config.description }}">
+<meta property="og:title" content = "{{ config.title }}">
+<meta property="og:url" content = "{{ get_url(path='@/_index.md') }}">
+<meta property="og:type" content = "website">
+{%- endblock head_meta -%}
+
+
+{%- block article_content -%}
+<div id="article">
+    <div id="article__title">
+        <h1>
+            {{config.extra.long_title}}
+        </h1>
+    </div>
+    <div id="article-content">
+        {{ section.content | safe }}
+    </div>
+</div>
+{%- endblock article_content -%}
+
+
+{% block suggested_articles %}
+{%- if section.extra.featured | length > 0 -%}
+<div id="suggested-articles">
+    <h2 id="suggested-articles-header">Featured Articles:</h3>
+    <div id="suggested-articles-list">
+        {%- for link in section.extra.featured -%}
+            {%- set p = get_page(path = link) -%}
+            {{ macros::related(t=p.title, d=p.description, l=p.permalink) }}
+        {%- endfor -%}
+    </div>
+</div>
+{%- endif -%}
+{% endblock suggested_articles %}

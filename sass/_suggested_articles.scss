@@ -1,0 +1,25 @@
+@mixin articles-list($font-size, $padding) {
+    font-size: $font-size;
+    padding: $padding;
+
+    #suggested-articles-header {
+        border-top: 2px solid $color2;
+        padding-top: 15px;
+    }
+
+    .suggested-article-card {
+        padding-bottom: 20px;
+
+        .suggested-article-title {
+            margin-bottom: 3px;
+        }
+    }
+}
+
+#suggested-articles {
+    @include articles-list(1.1em, 20px);
+}
+
+#section-articles {
+    @include articles-list(1em, 0px);
+}

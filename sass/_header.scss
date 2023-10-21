@@ -1,0 +1,38 @@
+@use "sass:math";
+
+@mixin header_footer_defaults() {
+    background-color: $color2;
+    width: 100%;
+    height: $header-height;
+}
+
+@mixin header_links($padding-left, $padding-right) {
+    padding-top: math.div($header-height - 25px, 2);
+    height: 100%;
+
+    a {
+        padding-left: $padding-left;
+        padding-right: $padding-right;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
+
+header {
+    @include header_footer_defaults();
+    position: sticky;
+    top: 0vh;
+
+    #header_div {
+        display: flex;
+        justify-content: flex-start;
+        
+        &__title {
+            @include header_links(20px, 20px);
+        }
+
+        &__github {
+            @include header_links(20px, 40px);
+        }
+    }
+}

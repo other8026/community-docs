@@ -1,0 +1,27 @@
+nav {
+    font-size: 1.2em;
+    padding-right: 30px;
+
+    ol, ul {
+        list-style-type: none;
+
+        ol, ul {
+            list-style-type:disc;
+        }
+
+        .section-title {
+            padding-top: 30px;
+        }
+    }
+
+    #active {
+        a {
+            color: $color2;
+            pointer-events: none;
+        }
+    }
+
+    #mobile-sidebar {
+        display: none;
+    }
+}

@@ -1,0 +1,9 @@
+{% extends "sidebar.html" %}
+{% block content %}
+<div id="content">
+    <main>
+        {% block article_content %}{% endblock article_content %}
+    </main>
+        {% block suggested_articles %}{% endblock suggested_articles %}
+</div>
+{% endblock content %}

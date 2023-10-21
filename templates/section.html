@@ -1,0 +1,26 @@
+{%- extends "base_with_sidebar.html" -%}
+{%- import "macros.html" as macros -%}
+{%- block title %}{{ super() }} - {{section.title}}{% endblock title -%}
+{%- block head_meta -%}
+<meta name="description" content="{{ section.description }}">
+<meta property="og:title" content = "{{ section.title }}">
+<meta property="og:url" content = "{{ get_url(path='@/_index.md') }}">
+<meta property="og:type" content = "website">
+{%- endblock head_meta -%}
+{%- block article_content -%}
+<div id="article">
+    <div id="article__title">
+        <h1>{{ section.title }}</h1>
+    </div>
+    <div id="article-content">
+        {{ section.content | safe }}
+    </div>
+</div>
+<br>
+<div id="section_articles">
+    <h2>{{ section.title }} articles:</h2>
+    {% for p in section.pages %}
+    {{ macros::related(t=p.title, d=p.description, l=p.permalink) }}
+    {% endfor %}
+</div>
+{%- endblock article_content -%}
