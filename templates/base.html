@@ -11,6 +11,9 @@
         <title>{% block title %}{{ config.title }}{% endblock title %}</title>
         <link rel="stylesheet" href="{{ get_url(path='normalize.css') }}" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ get_url(path='styles.css') }}" crossorigin="anonymous">
+        <script>
+            var search_index = "{{ get_url(path='search_index.en.json') }}";
+        </script>
     </head>
     <body>
         {% block header %}

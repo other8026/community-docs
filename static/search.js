@@ -174,7 +174,7 @@ function debounce(func, wait) {
     
     var initIndex = async function () {
       if (index === undefined) {
-        index = fetch("search_index.en.json")
+        index = fetch(search_index)
           .then(
             async function(response) {
               return await elasticlunr.Index.load(await response.json());
