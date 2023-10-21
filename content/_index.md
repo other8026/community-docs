@@ -3,7 +3,7 @@ title = "GOS Community Docs"
 description = "A community-driven documentation website for GrapheneOS and other related topics."
 
 [extra]
-featured = ["meta/create_article.md", "meta/running_site_locally.md", "meta/link_to_articles.md"]
+featured = ["faqs/app_compatibility.md"]
 
 +++
 A community-driven documentation website for GrapheneOS and other related topics.
