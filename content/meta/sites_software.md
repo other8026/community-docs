@@ -6,7 +6,7 @@ description = "A brief description of the software that builds this site"
 related = []
 
 +++
-This site was built using [Zola](https://www.getzola.org/), and this site's source code is on {{ github_link( t = "GitHub") }}.
+This site was built using [Zola](https://www.getzola.org/), and this site's source code is on {{ github_link( text = "GitHub") }}.
 
 This site does not store cookies or use any browser local storage, nor does it use any kind of tracking or analytics libraries. The site also doesn't fetch any external fonts, scripts, or stylesheets.
 
