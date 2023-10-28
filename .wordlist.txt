@@ -26,3 +26,5 @@ akc
 https
 io
 faqs
+sideloading
+bootloader
