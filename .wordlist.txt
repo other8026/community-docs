@@ -25,3 +25,4 @@ permalink
 akc
 https
 io
+faqs
