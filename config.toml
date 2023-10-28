@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://other8026.github.io/community-docs"
-title = "GOS Community Docs"
-description = "A community-driven documentation website for GrapheneOS and other related topics."
+title = "other8026's GOS Docs"
+description = "A community member's documentation website for GrapheneOS and other related topics."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -21,4 +21,4 @@ highlight_code = false
 
 [extra]
 github_url = "https://github.com/other8026/community-docs"
-long_title = "GrapheneOS Community Docs"
+long_title = "other8026's GOS Docs"
