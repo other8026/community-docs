@@ -11,6 +11,7 @@ stylesheets
 MacOS
 PowerShell
 Sandboxed
+sandboxed
 os
 frontend
 userspace
@@ -31,3 +32,4 @@ bootloader
 grapheneos
 url
 URL
+sandboxing
