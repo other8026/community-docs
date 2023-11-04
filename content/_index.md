@@ -6,7 +6,7 @@ description = "A community-driven documentation website for GrapheneOS and other
 featured = []
 
 +++
-A documentation website for GrapheneOS written by [other8026](https://discuss.grapheneos.org/u/other8026).
+A documentation website for GrapheneOS made by [other8026](https://discuss.grapheneos.org/u/other8026).
 
 This site isn't endorsed by the GrapheneOS project. The site is maintained and articles are written and kept up to date by other8026.
 
