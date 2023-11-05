@@ -1,0 +1,7 @@
+app_name: Nextcloud
+package_name: com.nextcloud.client
+works: true
+requires_compat_mode: false
+requires_gms: null
+requires_installed_by_play: false
+comment: ''

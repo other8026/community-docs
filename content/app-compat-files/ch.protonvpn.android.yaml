@@ -1,0 +1,7 @@
+app_name: Proton VPN
+package_name: ch.protonvpn.android
+works: true
+requires_compat_mode: false
+requires_gms: null
+requires_installed_by_play: null
+comment: ''

@@ -1,0 +1,7 @@
+app_name: Outlook
+package_name: com.microsoft.office.outlook
+works: true
+requires_compat_mode: false
+requires_gms: null
+requires_installed_by_play: null
+comment: ''

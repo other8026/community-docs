@@ -1,0 +1,17 @@
+# The app's name
+app_name: App Name
+# The package name
+package_name: com.app.package
+# If the app works or not. Only accepts true or false.
+works: true
+# Whether the app needs the exploit protection compatibility mode on or not
+# requires true or false
+requires_compat_mode: false
+# Whether the app needs to be installed in the same profile as one with Google Play and the others
+# This one can be true / false / null (null if you don't know)
+requires_gms: null
+# Whether the app requires that it was installed by Google Play
+# This one can be true / false / null (null if you don't know)
+requires_installed_by_play: null
+# Any other comments
+comment: 'comment can be empty'

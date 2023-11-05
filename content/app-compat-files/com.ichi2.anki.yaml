@@ -1,0 +1,7 @@
+app_name: AnkiDroid
+package_name: com.ichi2.anki
+works: true
+requires_compat_mode: false
+requires_gms: null
+requires_installed_by_play: null
+comment: ''

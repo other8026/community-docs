@@ -1,0 +1,7 @@
+app_name: Accrescent
+package_name: app.accrescent.client
+works: true
+requires_compat_mode: false
+requires_gms: false
+requires_installed_by_play: false
+comment: ''

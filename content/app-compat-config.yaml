@@ -1,0 +1,22 @@
+# the create_md_pages binary needs a yaml file like this one to create the desired .md page
+---
+#required - shows up in the title of the page on html and in the <title> tags
+title: "App Compatibility List"
+
+#required - description shows up in meta info for the page and if the page is linked
+#to in related/featured articles lists
+description: "a list of apps and whether they work"
+
+#optional
+before_text: |
+  Many people want to switch OSes but want to make sure their apps will work as expected
+  before migrating. This page hopefully helps put people's minds at ease.
+  
+  The emojis below mean the following:
+  
+  - ✅ - The app works without needing to enable Exploit Protection Compatibility Mode
+  - ⚠️ - The app works, but only with Exploit Protection Compatibility Mode set to "on"
+  - ❌ - The app doesn't work at all on GrapheneOS
+
+#optional
+after_text: null

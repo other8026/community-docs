@@ -1,0 +1,11 @@
+table {
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+}
+
+th {
+    text-align: left;
+    position: sticky;
+    top: $header-height;
+    background-color: $color1;
+}
