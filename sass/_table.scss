@@ -1,11 +1,15 @@
 table {
     border-collapse: separate;
     border-spacing: 15px 50px;
+    // below is to make the table horizontally scrollable
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 th {
     text-align: left;
-    position: sticky;
-    top: $header-height;
-    background-color: $color1;
+    // position: sticky;
+    // top: $header-height;
+    // background-color: $color1;
 }
