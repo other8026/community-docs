@@ -26,7 +26,7 @@ The emojis below mean the following:
 |Cryptomator|`org.cryptomator`|✅|no|no||
 |DAVx5|`at.bitfire.davdroid`|✅|?|no||
 |DeepL|`com.deepl.mobiletranslator`|✅|?|?||
-|eBay|`com.ebay.mobile`|✅|?|?|This app attempts to check hardware attestation via Google Play. It may crash if Google Play cdoes not have Network access. If an error occurs, try granting Google Play Network access and try again.|
+|eBay|`com.ebay.mobile`|✅|?|?|This app attempts to check hardware attestation via Google Play. It may crash if Google Play does not have Network access. If an error occurs, try granting Google Play Network access and try again.|
 |Element|`im.vector.app`|✅|no|no||
 |Facebook|`com.facebook.katana`|✅|?|?||
 |Firefox|`org.mozilla.firefox`|✅|?|?||
@@ -36,7 +36,7 @@ The emojis below mean the following:
 |Google Camera|`com.google.android.GoogleCamera`|⚠️|?|no||
 |Google Drive|`com.google.android.apps.docs`|✅|?|?||
 |Google Maps|`com.google.android.apps.maps`|✅|no|no||
-|Google Photos|`com.google.android.apps.photos`|✅|?|?|The app needs access to the Internet to download some stuff for some functionality.. After running once, Network access can be revoked.|
+|Google Photos|`com.google.android.apps.photos`|✅|?|?|The app needs access to the Internet to download some stuff for some functionality. After running once, Network access can be revoked.|
 |GPSTest|`com.android.gpstest`|✅|no|no||
 |Image Toolbox (Resizer)|`ru.tech.imageresizershrinker`|✅|?|?||
 |IMDb|`com.imdb.mobile`|✅|?|?||
