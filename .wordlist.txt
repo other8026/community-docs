@@ -58,3 +58,6 @@ SimpleLogin
 Spotify
 Uber
 VPN
+allocator
+Allocator
+
