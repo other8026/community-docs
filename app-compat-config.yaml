@@ -5,18 +5,28 @@ title: "App Compatibility List"
 
 #required - description shows up in meta info for the page and if the page is linked
 #to in related/featured articles lists
-description: "a list of apps and whether they work"
+description: "App Compatibility List for GrapheneOS"
 
 #optional
 before_text: |
-  Many people want to switch OSes but want to make sure their apps will work as expected
-  before migrating. This page hopefully helps put people's minds at ease.
+  Many prospective GrapheneOS users are willing to take the plunge, but are understandably
+  concerned that the apps that they regularly use will not work after transitioning.
+
+  This list is an attempt to help the community keep track of apps that work as expected or have
+  some issues running on GrapheneOS. Apps that need
+  [Exploit Protection Compatibility Mode](@/app-compatibility/exploit_protection_compatibility_mode.md)
+  on should be listed, as well as whether apps rely on Sandboxed Google Play to run. Or the occasional
+  app that refuses to launch unless it's installed by Google Play.
+
+  This page is a work in progress. The data is (as far as I know) accurate, but the page layout may change.
   
   The emojis below mean the following:
   
   - ✅ - The app works without needing to enable Exploit Protection Compatibility Mode
   - ⚠️ - The app works, but only with Exploit Protection Compatibility Mode set to "on"
   - ❌ - The app doesn't work at all on GrapheneOS
+
+  If any information on this list is incorrect, please open an issue on this site's {{ github_issues_link( text = "GitHub Issue Tracker") }}.
 
 #optional
 after_text: null
