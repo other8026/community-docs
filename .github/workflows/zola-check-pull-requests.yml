@@ -25,5 +25,7 @@ jobs:
       - uses: taiki-e/install-action@v2
         with:
           tool: zola
+      - name: run create_md_pages --run
+        run: create_md_pages --run --app-files-folder ./app-compat-files/ --output-md-file ./content/app-compatibility/app-compat-list.md --yaml-file ./app-compat-config.yaml
       - name: Check site
         run: zola check
