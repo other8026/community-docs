@@ -8,3 +8,5 @@ related = []
 Firstly, don't worry about it. Just play around and you'll figure it out.
 
 Don't worry about sandboxing. Apps are sandboxed in all profiles, including Owner.
+
+[App Scopes](https://twitter.com/GrapheneOS/status/1721270069412376933) are planned
