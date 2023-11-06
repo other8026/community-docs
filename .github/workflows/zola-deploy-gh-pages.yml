@@ -26,13 +26,15 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # env:
-    #   ZOLA_VERSION: 0.4.21
     steps:
       - uses: actions/checkout@v3
       - uses: taiki-e/install-action@v2
         with:
           tool: zola
+      - name: install create_md_pages
+        run: cargo install --git https://github.com/other8026/create_md_pages.git
+      - name: run create_md_pages --run
+        run: create_md_pages --run --app-files-folder ./app-compat-files/ --output-md-file ./content/app-compatibility/app-compat-list.md --yaml-file ./app-compat-config.yaml
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
