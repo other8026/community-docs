@@ -2,6 +2,6 @@ app_name: Mastodon
 package_name: org.joinmastodon.android
 works: true
 requires_compat_mode: false
-requires_gms: null
+requires_gms: false
 requires_installed_by_play: null
 comment: ''

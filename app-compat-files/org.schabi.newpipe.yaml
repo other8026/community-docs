@@ -2,6 +2,6 @@ app_name: NewPipe
 package_name: org.schabi.newpipe
 works: true
 requires_compat_mode: false
-requires_gms: null
+requires_gms: false
 requires_installed_by_play: false
 comment: ''

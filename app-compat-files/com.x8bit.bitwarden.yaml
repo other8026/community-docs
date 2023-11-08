@@ -2,6 +2,6 @@ app_name: Bitwarden
 package_name: com.x8bit.bitwarden
 works: true
 requires_compat_mode: false
-requires_gms: null
-requires_installed_by_play: null
+requires_gms: false
+requires_installed_by_play: false
 comment: ''

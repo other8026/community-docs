@@ -2,6 +2,6 @@ app_name: Google Camera
 package_name: com.google.android.GoogleCamera
 works: true
 requires_compat_mode: true
-requires_gms: null
+requires_gms: false
 requires_installed_by_play: false
-comment: ''
+comment: 'Some additional functionality with GMS apps installed, but works fine without.'
