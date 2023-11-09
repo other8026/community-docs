@@ -1,17 +1,30 @@
-# The app's name
+# Obviously, this is the app's name.
+# Use "Google Something" if it's a Google app, but the name doesn't start with Google
 app_name: App Name
-# The package name
-package_name: com.app.package
-# If the app works or not. Only accepts true or false.
+
+# package name is case sensitive
+package_name: app.package.name
+
+# does the app work on GrapheneOS _at all_, that includes with Google Play or
+# exploit compatibility mode on. If it can run with workarounds, the answer is `true`.
+# only accepts true or false
 works: true
-# Whether the app needs the exploit protection compatibility mode on or not
-# requires true or false
-requires_compat_mode: false
-# Whether the app needs to be installed in the same profile as one with Google Play and the others
-# This one can be true / false / null (null if you don't know)
-requires_gms: null
-# Whether the app requires that it was installed by Google Play
-# This one can be true / false / null (null if you don't know)
-requires_installed_by_play: null
-# Any other comments
-comment: 'comment can be empty'
+
+# Is Exploit Protection Compatibility Mode necessary for this to run?
+# only accepts true or false
+works_without_compat_mode: true
+
+# Does this app simply not work without Sandboxed Google Play installed?
+# accepts true / false / null
+# use `null` if the answer is unknown
+works_without_gms: true
+
+# Does this app work if installed by any source (i.e. Aurora)?
+# If the app refuses to work correctly without being installed by Google Play, use false
+# accepts true / false / null (if unknown)
+works_installed_by_any_source: true
+
+# Any other comments. Share any useful info, like Signal can work with GMS or without it.
+# Or the Ebay thing where the app crashes if Google Play has Network permission revoked.
+# accepts a string (please keep it short and no line breaks) or null
+comment: null

@@ -1,7 +1,7 @@
 app_name: Reddit
 package_name: com.reddit.frontpage
 works: true
-requires_compat_mode: false
-requires_gms: false
-requires_installed_by_play: null
-comment: ''
+works_without_compat_mode: true
+works_without_gms: true
+works_installed_by_any_source: null
+comment: null

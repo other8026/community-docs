@@ -1,7 +1,7 @@
 app_name: eBay
 package_name: com.ebay.mobile
 works: true
-requires_compat_mode: false
-requires_gms: null
-requires_installed_by_play: null
+works_without_compat_mode: true
+works_without_gms: null
+works_installed_by_any_source: null
 comment: This app attempts to check hardware attestation via Google Play. It may crash if Google Play does not have Network access. If an error occurs, try granting Google Play Network access and try again. See [this discussion](https://discuss.grapheneos.org/d/8561-ebay-app-log-in-not-working-invalid-request).

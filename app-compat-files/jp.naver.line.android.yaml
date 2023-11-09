@@ -1,7 +1,7 @@
 app_name: LINE
 package_name: jp.naver.line.android
 works: true
-requires_compat_mode: false
-requires_gms: null
-requires_installed_by_play: null
-comment: ''
+works_without_compat_mode: true
+works_without_gms: null
+works_installed_by_any_source: null
+comment: null

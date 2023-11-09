@@ -1,7 +1,7 @@
 app_name: Instagram
 package_name: com.instagram.android
 works: true
-requires_compat_mode: true
-requires_gms: false
-requires_installed_by_play: null
-comment: ''
+works_without_compat_mode: false
+works_without_gms: true
+works_installed_by_any_source: null
+comment: null

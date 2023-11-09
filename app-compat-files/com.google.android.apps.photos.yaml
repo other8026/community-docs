@@ -1,7 +1,7 @@
 app_name: Google Photos
 package_name: com.google.android.apps.photos
 works: true
-requires_compat_mode: false
-requires_gms: false
-requires_installed_by_play: null
-comment: The app needs access to the Internet to download some stuff for some functionality.. After running once, Network access can be revoked.
+works_without_compat_mode: true
+works_without_gms: true
+works_installed_by_any_source: null
+comment: The app needs access to the Internet to download some stuff for some functionality. After running once, Network access can be revoked.
