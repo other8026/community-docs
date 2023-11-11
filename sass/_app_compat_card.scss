@@ -1,0 +1,19 @@
+.app-compat-list-section {
+    display: flex;
+    flex-wrap: wrap;
+
+    .app-compat-card {
+        width: 350px;
+        border-style: solid;
+        border-width: 4px;
+        border-color: $color2;
+        padding: 5px;
+        margin-bottom: 25px;
+        margin-right: 25px;
+
+        .app-compat-card-comments {
+            border-top: 2px solid $color2;
+            padding-top: 10px;
+        }
+    }
+}
