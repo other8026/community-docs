@@ -19,9 +19,9 @@ body:
     attributes:
       label: App's package name
       description: |
-        Please enter the app's package name here (i.e. `com.company.app`)
+        Please enter the app's package name here (i.e. com.company.app)
         If you don't know how to find the package name, it can be found here:
-        `Settings > Apps > All apps > APP NAME`. Scroll to the bottom and you'll find it there.
+        Settings > Apps > All apps > APP NAME. Scroll to the bottom and you'll find it there.
     validations:
       required: true
   - type: dropdown
@@ -39,7 +39,7 @@ body:
     id: without-compat-mode
     attributes:
       label: The app works without Exploit Protection Compatibility Mode
-      description: `Settings > Apps > All apps > APP NAME > Exploit Protection Compatibility Mode`
+      description: Settings > Apps > All apps > APP NAME > Exploit Protection Compatibility Mode
       multiple: false
       options:
         - yes
