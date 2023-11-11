@@ -3,8 +3,10 @@
         <h3>{{ app_name }}</h3>
         <p><code>{{ package_name }}</code></p>
         <p>Works: {{ works }}</p>
-        <p>Without GMS: {{ works_without_gms }}</p>
-        <p>App Store Agnostic: {{ works_installed_by_any_source }}</p>
+        {%- if works_bool -%}
+        <p>without GMS: {{ works_without_gms }}</p>
+        <p>without install from Play: {{ works_installed_by_any_source }}</p>
+        {% endif %}
         {%- if comments | length > 0 -%}
         <p class="app-compat-card-comments">{{ comments | safe }}</p>
         {% endif %}

@@ -28,5 +28,7 @@ before_text: |
 
   If any information on this list is incorrect, please open an issue on this site's {{ github_issues_link( text = "GitHub Issue Tracker") }}.
 
+  ---
+
 #optional
 after_text: null
