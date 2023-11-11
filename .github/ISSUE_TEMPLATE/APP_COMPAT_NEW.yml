@@ -35,40 +35,40 @@ body:
         - no
     validations:
         required: true
-    - type: dropdown
-      id: without-compat-mode
-      attributes:
-        label: Does the app work without enabling Exploit Protection Compatibility Mode?
-        description: `Settings > Apps > All apps > APP NAME > Exploit Protection Compatibility Mode`
-        multiple: false
-        options:
-          - yes
-          - no
-      validations:
-          required: true
-    - type: dropdown
-      id: without-gms
-      attributes:
-        label: Is Sandboxed Google Play required?
-        description: Does the app work without Sandboxed Google Play installed in the same profile?
-        multiple: true
-        options:
-          - yes
-          - no
-          - I don't know
-      validations:
-          required: true
-    - type: dropdown
-      id: without-installed-by-play
-      attributes:
-        label: Does the app require it was installed by Google Play?
-        multiple: true
-        options:
-          - yes
-          - no
-          - I don't know
-      validations:
-          required: true
+  - type: dropdown
+    id: without-compat-mode
+    attributes:
+      label: Does the app work without enabling Exploit Protection Compatibility Mode?
+      description: `Settings > Apps > All apps > APP NAME > Exploit Protection Compatibility Mode`
+      multiple: false
+      options:
+        - yes
+        - no
+    validations:
+        required: true
+  - type: dropdown
+    id: without-gms
+    attributes:
+      label: Is Sandboxed Google Play required?
+      description: Does the app work without Sandboxed Google Play installed in the same profile?
+      multiple: true
+      options:
+        - yes
+        - no
+        - I don't know
+    validations:
+        required: true
+  - type: dropdown
+    id: without-installed-by-play
+    attributes:
+      label: Does the app require it was installed by Google Play?
+      multiple: true
+      options:
+        - yes
+        - no
+        - I don't know
+    validations:
+        required: true
   - type: textarea
     id: comments
     attributes:
