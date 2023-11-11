@@ -1,4 +1,4 @@
-name: "New Article"
+name: "Article - New Article"
 description: Write an article to be added to the community site
 labels: ["new article"]
 body:

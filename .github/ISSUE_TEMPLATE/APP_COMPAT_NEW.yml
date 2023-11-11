@@ -1,0 +1,78 @@
+name: "App Compat - New"
+description: Add a new app to the list so other GrapheneOS users can see if the app is supported or not.
+labels: ["new app-compat"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help out the GrapheneOS community by sharing whether an app works or not.
+  - type: input
+    id: app-name
+    attributes:
+      label: App Name
+      description: |
+        Please enter the app's name as it appears on your phone.
+    validations:
+      required: true
+  - type: input
+    id: package-name
+    attributes:
+      label: App's package name
+      description: |
+        Please enter the app's package name here (i.e. `com.company.app`)
+        If you don't know how to find the package name, it can be found here:
+        `Settings > Apps > All apps > APP NAME`. Scroll to the bottom and you'll find it there.
+    validations:
+      required: true
+  - type: dropdown
+    id: works
+    attributes:
+      label: Does the app work?
+      description: If the app works, even if it has special requirements?
+      multiple: false
+      options:
+        - yes
+        - no
+    validations:
+        required: true
+    - type: dropdown
+      id: without-compat-mode
+      attributes:
+        label: Does the app work without enabling Exploit Protection Compatibility Mode?
+        description: `Settings > Apps > All apps > APP NAME > Exploit Protection Compatibility Mode`
+        multiple: false
+        options:
+          - yes
+          - no
+      validations:
+          required: true
+    - type: dropdown
+      id: without-gms
+      attributes:
+        label: Is Sandboxed Google Play required?
+        description: Does the app work without Sandboxed Google Play installed in the same profile?
+        multiple: true
+        options:
+          - yes
+          - no
+          - I don't know
+      validations:
+          required: true
+    - type: dropdown
+      id: without-installed-by-play
+      attributes:
+        label: Does the app require it was installed by Google Play?
+        multiple: true
+        options:
+          - yes
+          - no
+          - I don't know
+      validations:
+          required: true
+  - type: textarea
+    id: comments
+    attributes:
+      label: Any additional comments
+      description: |
+        If there are any other comments about this app's compatibility with GrapheneOS,
+        please write it here.

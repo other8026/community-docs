@@ -1,4 +1,4 @@
-name: "Article Request"
+name: "Article - Request"
 description: Request that we write an article on something you're curious about
 labels: ["article request"]
 body:

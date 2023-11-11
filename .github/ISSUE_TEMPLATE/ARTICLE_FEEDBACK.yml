@@ -1,4 +1,4 @@
-name: "Article Feedback"
+name: "Article - Feedback"
 description: Give us feedback on an article that's already posted
 labels: ["article feedback"]
 body:
