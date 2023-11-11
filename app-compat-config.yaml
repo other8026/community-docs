@@ -22,9 +22,9 @@ before_text: |
   
   The emojis below mean the following:
   
-  - ✅ - The app works without needing to enable Exploit Protection Compatibility Mode
+  - ✅ - The app works in general or works without certain restrictions
   - ⚠️ - The app works, but only with Exploit Protection Compatibility Mode set to "on"
-  - ❌ - The app doesn't work at all on GrapheneOS
+  - ❌ - The app doesn't work at all on GrapheneOS, or it has certain restrictions
 
   If any information on this list is incorrect, please open an issue on this site's {{ github_issues_link( text = "GitHub Issue Tracker") }}.
 
