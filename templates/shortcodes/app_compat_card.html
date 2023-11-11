@@ -5,7 +5,7 @@
         <p>Works: {{ works }}</p>
         {%- if works_bool -%}
         <p>...without GMS: {{ works_without_gms }}</p>
-        <p>...not installed by Play: {{ works_installed_by_any_source }}</p>
+        <p>...if not installed by Play: {{ works_installed_by_any_source }}</p>
         {% endif %}
         {%- if comments | length > 0 -%}
         <p class="app-compat-card-comments">{{ comments | safe }}</p>
