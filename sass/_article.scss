@@ -23,6 +23,10 @@
         @include code_defaults();
         padding: 10px;
     }
+
+    h1 {
+        scroll-margin-top: $header-height;
+    }
 }
 
 #section_articles {

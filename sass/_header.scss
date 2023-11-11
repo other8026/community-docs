@@ -20,8 +20,8 @@
 
 header {
     @include header_footer_defaults();
-    // position: sticky;
-    // top: 0vh;
+    position: sticky;
+    top: 0vh;
 
     #header_div {
         display: flex;
