@@ -1,6 +1,7 @@
 name: "App Compat - New"
 description: Add a new app to the list so other GrapheneOS users can see if the app is supported or not.
-labels: ["new app-compat"]
+labels: ["app compat report"]
+title: "New App Report: "
 body:
   - type: markdown
     attributes:
@@ -20,15 +21,14 @@ body:
       label: App's package name
       description: |
         Please enter the app's package name here (i.e. com.company.app)
-        If you don't know how to find the package name, it can be found here:
-        Settings > Apps > All apps > APP NAME. Scroll to the bottom and you'll find it there.
+        Can be found here: Settings > Apps > All apps > APP NAME
     validations:
       required: true
   - type: dropdown
     id: works
     attributes:
       label: The app works
-      description: If the app works, even if it has special requirements?
+      description: It works on GrapheneOS, even if it requires Sandboxed Google Play, etc.
       multiple: false
       options:
         - 'no'
