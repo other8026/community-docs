@@ -27,7 +27,7 @@ body:
   - type: dropdown
     id: works
     attributes:
-      label: Does the app work?
+      label: The app works
       description: If the app works, even if it has special requirements?
       multiple: false
       options:
@@ -38,7 +38,7 @@ body:
   - type: dropdown
     id: without-compat-mode
     attributes:
-      label: Does the app work without enabling Exploit Protection Compatibility Mode?
+      label: The app works without Exploit Protection Compatibility Mode
       description: `Settings > Apps > All apps > APP NAME > Exploit Protection Compatibility Mode`
       multiple: false
       options:
@@ -49,7 +49,7 @@ body:
   - type: dropdown
     id: without-gms
     attributes:
-      label: Is Sandboxed Google Play required?
+      label: Works without Google Play
       description: Does the app work without Sandboxed Google Play installed in the same profile?
       multiple: true
       options:
@@ -61,7 +61,7 @@ body:
   - type: dropdown
     id: without-installed-by-play
     attributes:
-      label: Does the app require it was installed by Google Play?
+      label: Works even if not installed by Google Play
       multiple: true
       options:
         - yes
