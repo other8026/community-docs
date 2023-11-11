@@ -13,7 +13,7 @@ The answer to the question of what is the best profile setup is that there is no
 
 It is important to remember that all apps on Android are sandboxed, regardless of which profile they're installed in. For most use-cases, using profiles to further isolate apps is unnecessary. However, isolating apps to different profiles does have a few advantages, some of which are listed below:
 
-- Apps within profiles can communicate with each other via interprocess communication (IPC) (though control of IPC is an upcoming feature according to the GrapheneOS Twitter account's post on [App Scopes](https://twitter.com/GrapheneOS/status/1721270069412376933)).
+- Apps within profiles can communicate with each other via inter-process communication (IPC) (though control of IPC is an upcoming feature according to the GrapheneOS Twitter account's post on [App Scopes](https://twitter.com/GrapheneOS/status/1721270069412376933)).
 - Apps can list other installed apps within the same profile without needing special permission.
 - Some apps don't allow multiple users to be logged in, so profiles can be used to get around this kind of limitation.
 

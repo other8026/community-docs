@@ -61,3 +61,11 @@ VPN
 allocator
 Allocator
 README
+IPC
+FOSS
+ADB
+adb
+PIN
+PINs
+compat
+config
