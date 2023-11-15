@@ -1,4 +1,4 @@
-# the create_md_pages binary needs a yaml file like this one to create the desired .md page
+# create_md_pages configuration file for app-compatibility-list.md
 ---
 #required - shows up in the title of the page on html and in the <title> tags
 title: "App Compatibility List"
@@ -18,13 +18,14 @@ before_text: |
   on should be listed, as well as whether apps rely on Sandboxed Google Play to run. Or the occasional
   app that refuses to launch unless it's installed by Google Play.
 
-  This page is a work in progress. The data is (as far as I know) accurate, but the page layout may change.
+  This page is a work in progress. The data are (as far as I know) accurate, but the page layout may change.
   
   The emojis below mean the following:
   
   - ✅ - The app works in general or works without certain restrictions
   - ⚠️ - The app works, but only with Exploit Protection Compatibility Mode set to "on"
   - ❌ - The app doesn't work at all on GrapheneOS, or it has certain restrictions
+  - ❓ - Unknown whether the app works under the listed circumstance
 
   If any information on this list is incorrect, please open an issue on this site's {{ github_issues_link( text = "GitHub Issue Tracker") }}.
 
