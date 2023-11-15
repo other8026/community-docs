@@ -1,1 +1,1 @@
-<a href="{{ config.extra.github_url }}" target="_blank">{{ text }}</a>
+<a href="{{ config.extra.github_url }}{% if path %}{{ path }}{% endif %}" target="_blank">{{ text }}</a>

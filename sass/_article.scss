@@ -25,13 +25,18 @@
         padding: 10px;
     }
 
-    h1 {
+    h1, h2, h3, h4 {
         scroll-margin-top: $header-height;
+        margin-bottom: 15px;
+    }
+
+    ul {
+        margin-bottom: 15px;
     }
 
     p {
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 15px;
+        margin-bottom: 30px;
     }
 }
 

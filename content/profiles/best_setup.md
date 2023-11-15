@@ -9,13 +9,15 @@ One of the most common questions posed by new (and even sometimes not so new) co
 
 Profiles are probably one of GrapheneOS's most commonly used features. Although the profile feature is added by AOSP, GrapheneOS has [improved them](https://grapheneos.org/features#improved-user-profiles).
 
-The answer to the question of what is the best profile setup is that there is no answer. Each individual person has their own specific needs and use their phones in their own way. It's irresponsible for anyone to say their profile setup is the best and all others are inferior.
+The answer to the question of what is the best profile setup is that there is no answer. Each individual person has their own specific needs and use their phones in their own way. It's impossible for anyone to say their profile setup is the best and all others are inferior because the "best" setup is purely subjective.
 
 It is important to remember that all apps on Android are sandboxed, regardless of which profile they're installed in. For most use-cases, using profiles to further isolate apps is unnecessary. However, isolating apps to different profiles does have a few advantages, some of which are listed below:
 
 - Apps within profiles can communicate with each other via inter-process communication (IPC) (though control of IPC is an upcoming feature according to the GrapheneOS Twitter account's post on [App Scopes](https://twitter.com/GrapheneOS/status/1721270069412376933)).
 - Apps can list other installed apps within the same profile without needing special permission.
 - Some apps don't allow multiple users to be logged in, so profiles can be used to get around this kind of limitation.
+
+---
 
 ## Some Common Setups
 
@@ -40,6 +42,8 @@ Some users who tend to use profiles a lot like to set up their Owner profile to 
 ### No Profiles
 
 One option that many never even consider is not using profiles at all. Using profiles can add some unnecessary annoyances for some people because of how notifications work or switching between profiles is annoying, or PINs / passwords are too long or annoying. For some, no profiles is the best fit.
+
+---
 
 ## Final Thoughts
 
