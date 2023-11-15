@@ -1,7 +1,7 @@
 <div>
     <div id="{{ package_name }}" class="app-compat-card">
         <h3>{{ app_name }}</h3>
-        <p><code>{{ package_name }}</code></p>
+        <p><a href="#{{ package_name }}"><code>{{ package_name }}</code></a></p>
         <p>Works: {{ works }}</p>
         {%- if works_bool -%}
         <p>...without GMS: {{ works_without_gms }}</p>
