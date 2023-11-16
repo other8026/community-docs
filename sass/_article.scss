@@ -31,12 +31,12 @@
     }
 
     ul {
-        margin-bottom: 30px;
+        margin-bottom: $after-p;
     }
 
     p {
-        margin-top: 15px;
-        margin-bottom: 30px;
+        margin-top: $before-p;
+        margin-bottom: $after-p;
     }
 }
 
