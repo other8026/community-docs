@@ -1,11 +1,11 @@
 +++
-title = "Update Failed"
+title = "OS Update Failed"
 description = "Information on what's going on or what to do in the rare event that a GrapheneOS update fails"
 
 [extra]
 related = ["current_known_issues/no_valid_os_found.md"]
 +++
-In very rare cases, GrapheneOS updates fail. This can be concerning for users when it happens, but the chances of a phone being "bricked" is very low.
+In very rare cases, GrapheneOS OS updates fail. This can be concerning for users when it happens, but the chances of a phone being "bricked" is very low.
 
 GrapheneOS, as well as some other OSes, have changed or are changing updates to [A/B (seamless) system updates](https://source.android.com/docs/core/ota/ab). In a nutshell, A/B system updates was designed to accomplish two things: less downtime for phone users and fault resistance.
 
