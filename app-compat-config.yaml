@@ -21,7 +21,7 @@ before_text: |
   - ✅ - The app works in general or works without listed restrictions
   - ⚠️ - The app works, but only if the app is configured to run using Exploit Protection Compatibility Mode
   - ❌ - The app doesn't work at all on GrapheneOS, or it has a listed restriction
-  - ❓ - It's unknown whether the app works in the listed environment
+  - ❓ - It's unknown whether the app works as listed
 
   If any information on this list is incorrect, please open an issue on this site's
   {{ github_issues_link( text = "GitHub Issue Tracker") }}, or submit a pull request for the affected app.
