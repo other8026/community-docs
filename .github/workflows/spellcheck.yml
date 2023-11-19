@@ -1,5 +1,18 @@
 name: Spellcheck Action
-on: push
+on:
+  push
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - labeled
+      - unlabeled
+  pull_request_review:
+    types:
+      - submitted
+      - edited
+      - dismissed
 
 jobs:
   build:
