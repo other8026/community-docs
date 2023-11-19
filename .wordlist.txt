@@ -73,3 +73,5 @@ config
 WebUSB
 Todo
 yaml
+txt
+wordlist
