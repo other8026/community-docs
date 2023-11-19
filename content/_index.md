@@ -3,7 +3,7 @@ title = "GOS Community Docs"
 description = "A community-driven documentation website for GrapheneOS and other related topics."
 
 [extra]
-featured = []
+featured = ["app-compatibility/app-compat-list.md"]
 
 +++
 A documentation website for GrapheneOS made by [other8026](https://discuss.grapheneos.org/u/other8026).
