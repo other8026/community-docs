@@ -31,7 +31,7 @@
     <div id="suggested-articles-list">
         {%- for link in section.extra.featured -%}
             {%- set p = get_page(path = link) -%}
-            {{ macros::related(t=p.title, d=p.description, l=p.permalink) }}
+            {{ macros::related(display_text=p.title, description=p.description, link=p.permalink) }}
         {%- endfor -%}
     </div>
 </div>
