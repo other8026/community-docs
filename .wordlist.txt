@@ -60,6 +60,7 @@ Uber
 VPN
 allocator
 Allocator
+allocator's
 README
 IPC
 FOSS
@@ -71,3 +72,4 @@ compat
 config
 WebUSB
 Todo
+yaml
