@@ -16,7 +16,7 @@
 <br>
 <div id="section-articles">
     {% for p in section.pages %}
-    {{ macros::related(t=p.title, d=p.description, l=p.permalink) }}
+    {{ macros::related(display_text=p.title, description=p.description, link=p.permalink) }}
     {% endfor %}
 </div>
 {%- endblock article_content -%}
