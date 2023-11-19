@@ -6,6 +6,7 @@ description = "Instructions on how to create a new article"
 related = ["meta/list_related_articles.md", "meta/create_section.md"]
 
 +++
+
 Creating an article is very easy. All you need to do is create an `.md` file in the correct place and the site will generate the page for you.
 
 For example, if I want to add a page to the "meta" section about creating a page, you'd just do the following:

@@ -5,6 +5,7 @@ description = "One of the most common questions we get is about profile setups. 
 [extra]
 related = []
 +++
+
 One of the most common questions posed by new (and even sometimes not so new) community members is about the perfect profile setup.
 
 Profiles are probably one of GrapheneOS's most commonly used features. Although the profile feature is added by AOSP, GrapheneOS has [improved them](https://grapheneos.org/features#improved-user-profiles).

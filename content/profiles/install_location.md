@@ -5,6 +5,7 @@ description = "When using multiple profiles, some GrapheneOS users are curious a
 [extra]
 related = []
 +++
+
 One common misconception about Android and its user profiles feature is about apps and where they're installed. Many people think that apps are installed in a profile, so installs and updates in one profile cannot affect another profile. This is not the case.
 
 In short, apps are installed _globally_, meaning if an app is installed in any profile, that app is installed in a location on the phone that is accessible to all profiles.

@@ -5,6 +5,7 @@ description = "This page goes over some details of how the App Compatibility Lis
 [extra]
 related = ["app-compatibility/app-compat-list.md"]
 +++
+
 The [App Compatibility List](@/app-compatibility/app-compat-list.md) is automatically generated every time the page is built by GitHub Actions. The page is not manually created or edited because even markup is annoying to edit and formatting mistakes can just cause the page to look messed up or unprofessional. Editing configuration files is cleaner and easier. Additionally, using config files can make collaboration easier since multiple people can create pull requests with a much lower risk of there being merge conflicts.
 
 The configuration files are found in the folder {{ github_link(text = "create_md_pages", path = "/tree/main/app-compat-files") }} in the root of the repository and follow this format:

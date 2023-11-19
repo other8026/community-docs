@@ -6,6 +6,7 @@ description = "Instructions on how to create a new section"
 related = ["meta/create_article.md"]
 
 +++
+
 Creating a section is very easy. The steps are as follows:
 
 - Create a new folder in the `content/` folder (be sure to use underscores, not hyphens or spaces, in the filename).

@@ -5,6 +5,7 @@ description = "How to run this site locally"
 [extra]
 related = []
 +++
+
 In order to run this site locally, whether it's to play around with it or to help contribute, you first need to download the website's files.
 
 You can either use `git pull` to download, or download a `.zip` file from the {{ github_link( text = "GitHub") }} page by clicking the green `Code` button then `Download ZIP`, and then unzip somewhere.
