@@ -1,0 +1,7 @@
+app_name: Google Home
+package_name: com.google.android.apps.chromecast.app
+works: true
+works_without_compat_mode: true
+works_without_gms: false
+works_installed_by_any_source: null
+comment: null
