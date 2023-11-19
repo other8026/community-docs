@@ -1,0 +1,7 @@
+app_name: Google Keep Notes
+package_name: com.google.android.keep
+works: true
+works_without_compat_mode: true
+works_without_gms: null
+works_installed_by_any_source: null
+comment: null
