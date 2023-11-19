@@ -12,13 +12,9 @@
     <div id="article__title">
         <h1>{{ section.title }}</h1>
     </div>
-    <div id="article-content">
-        {{ section.content | safe }}
-    </div>
 </div>
 <br>
 <div id="section_articles">
-    <h2>{{ section.title }} articles:</h2>
     {% for p in section.pages %}
     {{ macros::related(t=p.title, d=p.description, l=p.permalink) }}
     {% endfor %}

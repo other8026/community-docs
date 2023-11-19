@@ -4,4 +4,3 @@ description = "Some of the most commonly asked questions about GrapheneOS update
 sort_by = "title"
 weight = 5
 +++
-Some of the most commonly asked questions about GrapheneOS updates
