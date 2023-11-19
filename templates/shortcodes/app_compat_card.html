@@ -6,7 +6,7 @@
         {%- if works_bool -%}
         <p>...without Google Play: {{ works_without_gms }}</p>
         <p>...if not installed by Google Play: {{ works_installed_by_any_source }}</p>
-        {% endif %}
+        {%- endif -%}
         {%- if comments | length > 0 -%}
         <p class="app-compat-card-comments">{{ comments | safe }}</p>
         {% endif %}
