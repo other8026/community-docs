@@ -4,4 +4,4 @@ works: true
 works_without_compat_mode: false
 works_without_gms: true
 works_installed_by_any_source: true
-comment: Some additional functionality with GMS apps installed, but works fine without.
+comment: null
