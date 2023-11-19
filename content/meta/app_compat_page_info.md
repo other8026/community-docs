@@ -7,7 +7,7 @@ related = ["app-compatibility/app-compat-list.md"]
 +++
 The [App Compatibility List](@/app-compatibility/app-compat-list.md) is automatically generated every time the page is built by GitHub Actions. The page is not manually created or edited because even markup is annoying to edit and formatting mistakes can just cause the page to look messed up or unprofessional. Editing configuration files is cleaner and easier. Additionally, using config files can make collaboration easier since multiple people can create pull requests with a much lower risk of there being merge conflicts.
 
-The configuration files are found in the folder `app-compat-files` in the root of the repository and follow this format:
+The configuration files are found in the folder {{ github_link(text = "create_md_pages", path = "/tree/main/app-compat-files") }} in the root of the repository and follow this format:
 
 ```
 app_name: App Name
@@ -23,4 +23,4 @@ When this repository is updated, GitHub Actions automatically triggers a workflo
 
 There's another configuration file that `create_md_pages` uses. It's called `app-compat-config.yaml`, which is located in the root of the site's repository. It contains page-specific configuration variables, such as title or description.
 
-`create_md_pages` has an option of creating new config files, but it's probably easier to copy the `_template.yaml` [file](https://github.com/other8026/community-docs/blob/main/app-compat-files/_template.yaml). The template file has comments, explaining the fields and what values are supported.
+`create_md_pages` has an option of creating new config files, but it's probably easier to copy the `_template.yaml` {{ github_link(text = "file", path = "/blob/main/app-compat-config.yaml") }}. The template file has comments, explaining the fields and what values are supported.
