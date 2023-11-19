@@ -14,7 +14,7 @@
     </div>
 </div>
 <br>
-<div id="section_articles">
+<div id="section-articles">
     {% for p in section.pages %}
     {{ macros::related(t=p.title, d=p.description, l=p.permalink) }}
     {% endfor %}
