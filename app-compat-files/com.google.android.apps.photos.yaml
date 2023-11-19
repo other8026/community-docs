@@ -4,4 +4,4 @@ works: true
 works_without_compat_mode: true
 works_without_gms: true
 works_installed_by_any_source: null
-comment: The app needs access to the Internet to download some stuff for some functionality. After running once, Network access can be revoked.
+comment: null
