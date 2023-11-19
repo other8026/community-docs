@@ -1,3 +1,13 @@
+@mixin border-defaults() {
+    border-style: solid;
+    border-width: 1px;
+    border-color: $color2;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    scroll-margin-top: $header-height;
+}
+
 #suggested-articles {
     font-size: 1.1em;
     padding: 20px;
@@ -7,11 +17,30 @@
         padding-top: 15px;
     }
 
-    .suggested-article-card {
-        padding-bottom: 20px;
+    .section-article-card {
+        @include border-defaults();
 
-        .suggested-article-title {
-            margin-bottom: 3px;
+        .section-article-title {
+            margin-top: 5px;
+            margin-bottom: 10px;
         }
+    }
+}
+
+#section-articles {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .section-article-card {
+        @include border-defaults();
+
+        .section-article-title {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        // .section-article-description {
+
+        // }
     }
 }
