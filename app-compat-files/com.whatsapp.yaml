@@ -4,4 +4,5 @@ works: true
 works_without_compat_mode: true
 works_without_gms: null
 works_installed_by_any_source: null
-comment: In order to restore backups, Sandboxed Google Play has to be installed and it must have permissions granted to it, including Contacts.
+last_date_updated: 2023-11-19
+comment: <p>In order to restore backups, Sandboxed Google Play has to be installed and it must have permissions granted to it, including Contacts.</p>

@@ -4,7 +4,5 @@ works: true
 works_without_compat_mode: true
 works_without_gms: null
 works_installed_by_any_source: null
-comment: |
-  This app attempts to check hardware attestation via Google Play. It may crash if Google Play does not have Network access.
-  If an error occurs, try granting Google Play Network access and try again.
-  <a href="https://discuss.grapheneos.org/d/8561-ebay-app-log-in-not-working-invalid-request" target="_blank">See this discussion</a>.
+last_date_updated: 2023-11-19
+comment: <p>This app attempts to check hardware attestation via Google Play. It may crash if Google Play does not have Network access.</p><p>If an error occurs, try granting Google Play Network access and try again.</p><p><a href='https://discuss.grapheneos.org/d/8561-ebay-app-log-in-not-working-invalid-request' target='_blank'>See this discussion</a>.</p>
