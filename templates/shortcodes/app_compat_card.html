@@ -4,7 +4,7 @@
         <p><a href="#{{ package_name }}"><code>{{ package_name }}</code></a></p>
         <p>Works: {{ works }}</p>
         {%- if works_bool -%}
-        <p>...without GMS: {{ works_without_gms }}</p>
+        <p>...without Google Play: {{ works_without_gms }}</p>
         <p>...if not installed by Play: {{ works_installed_by_any_source }}</p>
         {% endif %}
         {%- if comments | length > 0 -%}
