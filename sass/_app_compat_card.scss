@@ -12,6 +12,10 @@
         margin-right: 25px;
         scroll-margin-top: $header-height;
 
+        code {
+            font-size: 0.95em;
+        }
+
         .app-compat-card-comments {
             border-top: 2px solid $color2;
             padding-top: 10px;
