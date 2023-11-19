@@ -23,6 +23,12 @@
     pre {
         @include code_defaults();
         padding: 10px;
+
+        // code blocks are wrapped in <pre>
+        // this makes them horizontally scrollable
+        // so they don't end up looking ugly on smaller screens
+        display: block;
+        overflow-x: auto;
     }
 
     h1, h2, h3, h4 {
