@@ -42,7 +42,7 @@ body:
     id: without-compat-mode
     attributes:
       label: The app works without Exploit Protection Compatibility Mode
-      description: `Settings` → `Apps` → `All apps` → `<app_name>` → `Advanced` → `Exploit protection compatibility mode`
+      description: See `Settings` → `Apps` → `All apps` → `<app_name>` → `Advanced` → `Exploit protection compatibility mode`
       multiple: false
       options:
         - No
