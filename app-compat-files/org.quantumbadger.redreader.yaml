@@ -1,12 +1,10 @@
 app_name: RedReader
 package_name: org.quantumbadger.redreader
-version: ''
-repo_or_download_link: null
-description: null
+version: 1.22
+repo_or_download_link: https://github.com/QuantumBadger/RedReader
+description: An unofficial open source Android app for Reddit.
 works: true
 works_without_compat_mode: true
 works_without_gms: true
 works_installed_by_any_source: true
-other_compatibility_comment: |
-  An unofficial open source Android app for Reddit.
-  <a href = 'https://github.com/QuantumBadger/RedReader' target='_blank'>Repo</a>
+other_compatibility_comment: null
