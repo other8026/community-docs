@@ -1,12 +1,10 @@
 app_name: Vernet
 package_name: org.fsociety.vernet
-version: ''
-repo_or_download_link: null
-description: null
+version: v1.0.1+16
+repo_or_download_link: https://github.com/osociety/vernet
+description: Network Analyzer and Monitoring Tool
 works: true
 works_without_compat_mode: true
 works_without_gms: true
 works_installed_by_any_source: true
-other_compatibility_comment: |
-  Network Analyzer and Monitoring Tool
-  <a href='https://github.com/osociety/vernet' target='_blank'>Repo</a>
+other_compatibility_comment: null
