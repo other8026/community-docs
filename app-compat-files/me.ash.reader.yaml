@@ -1,0 +1,10 @@
+app_name: Read You
+package_name: me.ash.reader
+works: true
+works_without_compat_mode: true
+works_without_gms: true
+works_installed_by_any_source: true
+last_date_updated: 2023-11-20
+comment: |
+  An Android RSS reader presented in Material You style.
+  <a href = "https://github.com/Ashinch/ReadYou" target="_blank">Repo</a>
