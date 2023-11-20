@@ -1,10 +1,10 @@
 app_name: ExifEraser
 package_name: com.none.tom.exiferaser
-version: ''
+version: 6.1.0
 repo_or_download_link: null
-description: null
+description: Permissionless image metadata erasing application for Android
 works: true
 works_without_compat_mode: true
 works_without_gms: true
 works_installed_by_any_source: true
-other_compatibility_comment: Permissionless image metadata erasing application for Android
+other_compatibility_comment: null
