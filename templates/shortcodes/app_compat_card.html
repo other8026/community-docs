@@ -6,7 +6,7 @@
         <div class="app-compat-card-app-description">{{ description | safe }}</div>
         {%- endif -%}
         {%- if repo_or_download_link | length > 0 -%}
-        <p>Download from <a href="{{ repo_or_download_link }}" target="_blank">{{ link_host }}</a></p>
+        <p><a href="{{ repo_or_download_link }}" target="_blank">{{ link_host }}</a></p>
         {%- endif -%}
         <div class="app-compat-card-status-icons">
         <p>Works: {{ general_status_icon }}</p>
