@@ -1,14 +1,11 @@
 app_name: NeoTTY
 package_name: app.neotty
-version: ''
-repo_or_download_link: null
-description: null
+version: 1.2
+repo_or_download_link: https://github.com/sylirre/neotty
+description: Yet another terminal app for Android OS but different. Powered by QEMU. No root required. (Previously known as vmConsole)
 works: true
 works_without_compat_mode: true
 works_without_gms: true
 works_installed_by_any_source: true
 other_compatibility_comment: |
-  Yet another terminal app for Android OS but different. Powered by QEMU. No root required.
-  <a href = 'https://github.com/sylirre/neotty' target='_blank'>Repo</a>
-  Note: Terminal app that works in secondary profiles as well.
-  NeoTTY previously was available under the name vmConsole
+  Works in secondary profiles as well.
