@@ -1,6 +1,6 @@
 app_name: Google Home
 package_name: com.google.android.apps.chromecast.app
-version: ''
+version: 3.9.1.6
 repo_or_download_link: null
 description: null
 works: true

@@ -1,6 +1,6 @@
 app_name: Firefox
 package_name: org.mozilla.firefox
-version: ''
+version: 119.1.1
 repo_or_download_link: null
 description: null
 works: true

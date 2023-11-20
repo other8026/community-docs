@@ -1,6 +1,6 @@
 app_name: Mullvad VPN
 package_name: net.mullvad.mullvadvpn
-version: ''
+version: 2023.7
 repo_or_download_link: null
 description: null
 works: true

@@ -1,6 +1,6 @@
 app_name: NewPipe
 package_name: org.schabi.newpipe
-version: ''
+version: 0.25.2
 repo_or_download_link: null
 description: null
 works: true

@@ -1,8 +1,8 @@
 app_name: Molly
 package_name: im.molly.app
-version: ''
-repo_or_download_link: null
-description: null
+version: v6.40.4-1-FOSS
+repo_or_download_link: https://github.com/mollyim/mollyim-android
+description: Enhanced and security-focused fork of Signal.
 works: true
 works_without_compat_mode: true
 works_without_gms: true

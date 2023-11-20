@@ -1,6 +1,6 @@
 app_name: Telegram
 package_name: org.telegram.messenger
-version: ''
+version: 10.2.9
 repo_or_download_link: null
 description: null
 works: true

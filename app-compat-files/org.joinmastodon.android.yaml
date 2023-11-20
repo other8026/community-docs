@@ -1,6 +1,6 @@
 app_name: Mastodon
 package_name: org.joinmastodon.android
-version: ''
+version: 2.2.1
 repo_or_download_link: null
 description: null
 works: true

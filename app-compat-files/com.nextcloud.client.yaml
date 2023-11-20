@@ -1,6 +1,6 @@
 app_name: Nextcloud
 package_name: com.nextcloud.client
-version: ''
+version: 3.26.0
 repo_or_download_link: null
 description: null
 works: true

@@ -1,6 +1,6 @@
-app_name: Google Keep Notes
-package_name: com.google.android.keep
-version: ''
+app_name: Snapchat
+package_name: com.snapchat.android
+version: 12.60.0.58
 repo_or_download_link: null
 description: null
 works: true

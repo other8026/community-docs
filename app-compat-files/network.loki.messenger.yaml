@@ -1,6 +1,6 @@
 app_name: Session
 package_name: network.loki.messenger
-version: ''
+version: 1.17.4
 repo_or_download_link: null
 description: null
 works: true

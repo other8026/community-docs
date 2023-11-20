@@ -1,7 +1,7 @@
 app_name: Bitwarden
 package_name: com.x8bit.bitwarden
-version: ''
-repo_or_download_link: null
+version: 2023.10.0
+repo_or_download_link: https://github.com/bitwarden/mobile
 description: null
 works: true
 works_without_compat_mode: true

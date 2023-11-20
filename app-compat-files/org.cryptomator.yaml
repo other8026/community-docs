@@ -1,7 +1,7 @@
 app_name: Cryptomator
 package_name: org.cryptomator
-version: ''
-repo_or_download_link: null
+version: 1.10.0
+repo_or_download_link: https://github.com/cryptomator/android
 description: null
 works: true
 works_without_compat_mode: true
