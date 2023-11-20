@@ -17,8 +17,16 @@
         }
 
         .app-compat-card-comments {
-            border-top: 2px solid $color2;
+            border-top: 1px solid $color2;
             padding-top: 10px;
+        }
+
+        .app-compat-card-app-description {
+            font-style: italic;
+        }
+
+        .app-compat-card-status-icons {
+            border-top: 1px solid $color2;
         }
 
         p {
