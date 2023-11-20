@@ -36,8 +36,8 @@ body:
 
         `Settings` → `Apps` → `All apps` → `<app_name>` → (scroll to the bottom) `version`
       placeholder: '6.39.3'
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: works
     attributes:
