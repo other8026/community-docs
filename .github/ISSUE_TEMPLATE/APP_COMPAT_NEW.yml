@@ -1,7 +1,7 @@
-name: "App Compat - New"
-description: Add a new app to the list so other GrapheneOS users can see if the app is supported or not.
+name: "Submit your app compatilibity report"
+description: Contribute by submitting your report to the [App compatibility with GrapheneOS list](https://other8026.github.io/community-docs/app-compatibility/app-compat-list/) - enabling other GrapheneOS users to easily determine whether it's supported.
 labels: ["app compat report"]
-title: "New App Report: "
+title: "App Report: [Replace with 'New' or 'Update' <App name>]"
 body:
   - type: markdown
     attributes:
@@ -10,18 +10,21 @@ body:
   - type: input
     id: app-name
     attributes:
-      label: App Name
+      label: App name
       description: |
         Please enter the app's name as it appears on your phone.
+      placeholder: Signal
     validations:
       required: true
   - type: input
     id: package-name
     attributes:
-      label: App's package name
+      label: App package name (Application ID)
       description: |
         Please enter the app's package name here (i.e. com.company.app)
-        Can be found here: Settings > Apps > All apps > APP NAME
+
+        `Settings` → `Apps` → `All apps` → `<app_name>` → `Store` → `App ID / Package name`
+      placeholder: org.thoughtcrime.securesms
     validations:
       required: true
   - type: dropdown
@@ -31,19 +34,19 @@ body:
       description: It works on GrapheneOS, even if it requires Sandboxed Google Play, etc.
       multiple: false
       options:
-        - 'no'
-        - 'yes'
+        - No
+        - Yes
     validations:
         required: true
   - type: dropdown
     id: without-compat-mode
     attributes:
       label: The app works without Exploit Protection Compatibility Mode
-      description: Settings > Apps > All apps > APP NAME > Exploit Protection Compatibility Mode
+      description: `Settings` → `Apps` → `All apps` → `<app_name>` → `Advanced` → `Exploit protection compatibility mode`
       multiple: false
       options:
-        - 'no'
-        - 'yes'
+        - No
+        - Yes
     validations:
         required: true
   - type: dropdown
@@ -53,9 +56,9 @@ body:
       description: Does the app work without Sandboxed Google Play installed in the same profile?
       multiple: false
       options:
-        - I don't know
-        - 'no'
-        - 'yes'
+        - Unsure
+        - No
+        - Yes
     validations:
         required: true
   - type: dropdown
@@ -64,9 +67,9 @@ body:
       label: Works even if not installed by Google Play
       multiple: false
       options:
-        - I don't know
-        - 'no'
-        - 'yes'
+        - Unsure
+        - No
+        - Yes
     validations:
         required: true
   - type: textarea
