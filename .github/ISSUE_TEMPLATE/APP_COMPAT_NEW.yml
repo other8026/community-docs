@@ -1,5 +1,5 @@
-name: "Submit your app compatilibity report"
-description: Contribute by submitting your report to the [App compatibility with GrapheneOS list](https://other8026.github.io/community-docs/app-compatibility/app-compat-list/) - enabling other GrapheneOS users to easily determine whether it's supported.
+name: "Submit your GrapheneOS app compatibility report"
+description: Submit your report to the [App compatibility list](https://other8026.github.io/community-docs/app-compatibility/app-compat-list/) - helping others easily determine if apps are compatible.
 labels: ["app compat report"]
 title: "App Report: [Replace with 'New' or 'Update' <App name>]"
 body:
