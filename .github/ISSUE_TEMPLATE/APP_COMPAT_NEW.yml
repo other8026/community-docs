@@ -34,8 +34,8 @@ body:
       description: It works on GrapheneOS, even if it requires Sandboxed Google Play, etc.
       multiple: false
       options:
-        - No
-        - Yes
+        - 'No'
+        - 'Yes'
     validations:
         required: true
   - type: dropdown
@@ -45,8 +45,8 @@ body:
       description: See `Settings` → `Apps` → `All apps` → `<app_name>` → `Advanced` → `Exploit protection compatibility mode`
       multiple: false
       options:
-        - No
-        - Yes
+        - 'No'
+        - 'Yes'
     validations:
         required: true
   - type: dropdown
@@ -56,9 +56,9 @@ body:
       description: Does the app work without Sandboxed Google Play installed in the same profile?
       multiple: false
       options:
-        - Unsure
-        - No
-        - Yes
+        - 'Unsure'
+        - 'No'
+        - 'Yes'
     validations:
         required: true
   - type: dropdown
@@ -67,9 +67,9 @@ body:
       label: Works even if not installed by Google Play
       multiple: false
       options:
-        - Unsure
-        - No
-        - Yes
+        - 'Unsure'
+        - 'No'
+        - 'Yes'
     validations:
         required: true
   - type: textarea
