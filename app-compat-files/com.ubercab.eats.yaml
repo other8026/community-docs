@@ -1,8 +1,10 @@
 app_name: Uber Eats
 package_name: com.ubercab.eats
+version: ''
+repo_or_download_link: null
+description: null
 works: true
 works_without_compat_mode: true
 works_without_gms: null
 works_installed_by_any_source: null
-last_date_updated: 2023-11-19
-comment: null
+other_compatibility_comment: null
