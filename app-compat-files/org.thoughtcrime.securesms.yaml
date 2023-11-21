@@ -1,8 +1,8 @@
 app_name: Signal
 package_name: org.thoughtcrime.securesms
 version: 6.40.5
-repo_or_download_link: null
-description: null
+repo_or_download_link: https://github.com/signalapp/Signal-Android
+description: A private messenger for Android.
 works: true
 works_without_compat_mode: true
 works_without_gms: true
