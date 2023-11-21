@@ -50,4 +50,5 @@ works_installed_by_any_source: true
 # Any other comments about the app's compatibility. A couple examples:
 # - Breaks if Network permission revoked.
 # - Google Play or Google Play Services need Network permission
+# - Depends on something like Google Play Games
 other_compatibility_comment: null
