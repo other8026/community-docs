@@ -1,7 +1,7 @@
 app_name: GPSTest
 package_name: com.android.gpstest
 version: 3.10.3
-repo_or_download_link: null
+repo_or_download_link: https://github.com/barbeau/gpstest
 description: null
 works: true
 works_without_compat_mode: true

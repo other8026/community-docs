@@ -1,7 +1,7 @@
 app_name: Nextcloud
 package_name: com.nextcloud.client
 version: 3.26.0
-repo_or_download_link: null
+repo_or_download_link: https://github.com/nextcloud/android
 description: null
 works: true
 works_without_compat_mode: true

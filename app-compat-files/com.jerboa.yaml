@@ -1,8 +1,8 @@
 app_name: Jerboa
 package_name: com.jerboa
 version: 0.0.50
-repo_or_download_link: null
-description: null
+repo_or_download_link: https://github.com/dessalines/jerboa
+description: A native android app for Lemmy
 works: true
 works_without_compat_mode: true
 works_without_gms: true

@@ -1,8 +1,8 @@
 app_name: SchildiChat
 package_name: de.spiritcroc.riotx
 version: 1.6.6.sc73
-repo_or_download_link: null
-description: null
+repo_or_download_link: https://github.com/SchildiChat/SchildiChat-android
+description: Matrix client / Element Android fork
 works: true
 works_without_compat_mode: true
 works_without_gms: null

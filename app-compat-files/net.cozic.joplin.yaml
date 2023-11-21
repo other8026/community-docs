@@ -1,7 +1,7 @@
 app_name: Joplin
 package_name: net.cozic.joplin
 version: 2.12.3
-repo_or_download_link: null
+repo_or_download_link: https://github.com/laurent22/joplin/
 description: null
 works: true
 works_without_compat_mode: true

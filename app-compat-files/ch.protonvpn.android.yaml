@@ -1,7 +1,7 @@
 app_name: Proton VPN
 package_name: ch.protonvpn.android
 version: 4.8.38.0
-repo_or_download_link: null
+repo_or_download_link: https://github.com/ProtonVPN/android-app
 description: null
 works: true
 works_without_compat_mode: true
