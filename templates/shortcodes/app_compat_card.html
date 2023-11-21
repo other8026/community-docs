@@ -1,7 +1,7 @@
 <div>
     <div id="{{ package_name }}" class="app-compat-card">
         <h3>{{ app_name }}</h3>
-        <p><code>{{ package_name }}</code> <code>{{ version }}</code></p>
+        <p><a href="#{{ package_name }}"><code>{{ package_name }}</code></a> <code>{{ version }}</code></p>
         {%- if description | length > 0 -%}
         <div class="app-compat-card-app-description">{{ description | safe }}</div>
         {%- endif -%}
