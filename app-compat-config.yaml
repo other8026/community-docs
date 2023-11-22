@@ -7,6 +7,10 @@ title: "App Compatibility List"
 #to in related/featured articles lists
 description: "App Compatibility List for GrapheneOS"
 
+# set an alias to this page because the whole url is so long and not fun to share
+# zola supports multiple aliases, but just using one here because no point in setting many
+alias: "apps"
+
 #optional
 before_text: |
   This list is an attempt to help the community track app compatibility and whether apps work normally or need
