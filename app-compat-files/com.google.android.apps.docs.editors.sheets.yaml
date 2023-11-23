@@ -5,6 +5,6 @@ repo_or_download_link: null
 description: null
 works: true
 works_without_compat_mode: true
-works_without_gms: null
+works_without_gms: false
 works_installed_by_any_source: null
 other_compatibility_comment: null
