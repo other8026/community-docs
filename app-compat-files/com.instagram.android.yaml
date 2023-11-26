@@ -4,7 +4,7 @@ version: 309.0.0.40.113
 repo_or_download_link: null
 description: null
 works: true
-works_without_compat_mode: false
+works_without_compat_mode: true
 works_without_gms: true
 works_installed_by_any_source: true
 other_compatibility_comment: null
