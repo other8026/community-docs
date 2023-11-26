@@ -5,8 +5,9 @@ repo_or_download_link: https://github.com/sylirre/neotty
 description: |
   Yet another terminal app for Android OS but different. Powered by QEMU. No root required.
   (Previously known as vmConsole)
+  Works in secondary profiles as well.
 works: true
 works_without_compat_mode: true
 works_without_gms: true
 works_installed_by_any_source: true
-other_compatibility_comment: Works in secondary profiles as well.
+other_compatibility_comment: null

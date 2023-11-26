@@ -25,7 +25,7 @@ If any information on this list is incorrect, please open an issue on this site'
 ---
 
 {{ raw_html( html = "<div class='toc'>") }}
-[A](#a) | [G](#g)
+[A](#a) | [G](#g) | [W](#w)
 {{ raw_html( html = "</div>") }}
 
 # A
@@ -42,5 +42,11 @@ If any information on this list is incorrect, please open an issue on this site'
 {{ app_compat_card( app_name = "Google Drive", package_name = "com.google.android.apps.docs", version = "2.23.447.3.all.alldpi", repo_or_download_link = "", link_host = "", description = "", works = true, general_status_icon = "✅", works_without_gms = "❌", works_installed_by_any_source = "❓", other_compatibility_comment = "" ) }}
 {{ app_compat_card( app_name = "Google Home", package_name = "com.google.android.apps.chromecast.app", version = "3.9.1.6", repo_or_download_link = "", link_host = "", description = "", works = true, general_status_icon = "✅", works_without_gms = "❌", works_installed_by_any_source = "❓", other_compatibility_comment = "" ) }}
 {{ app_compat_card( app_name = "Google Sheets", package_name = "com.google.android.apps.docs.editors.sheets", version = "1.23.452.03.90", repo_or_download_link = "", link_host = "", description = "", works = true, general_status_icon = "✅", works_without_gms = "❌", works_installed_by_any_source = "❓", other_compatibility_comment = "" ) }}
+{{ raw_html( html = "</div>") }}
+
+# W
+
+{{ raw_html( html = "<div class='app-compat-list-section'>") }}
+{{ app_compat_card( app_name = "WhatsApp", package_name = "com.whatsapp", version = "2.23.23.78", repo_or_download_link = "", link_host = "", description = "", works = true, general_status_icon = "✅", works_without_gms = "❓", works_installed_by_any_source = "❓", other_compatibility_comment = "<p>In order to restore backups, Sandboxed Google Play has to be installed and it must have permissions granted to it, including Contacts.</p>" ) }}
 {{ raw_html( html = "</div>") }}
 
