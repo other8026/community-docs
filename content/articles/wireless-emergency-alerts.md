@@ -51,7 +51,7 @@ The permissions are as follows:
 Any permissions listed without a link were found [here](https://github.com/GrapheneOS/platform_frameworks_base/blob/14/core/res/AndroidManifest.xml).
 
 ## Why does WEA need these permissions?
-Again, I didn't read through all of the code, so I may have missed some things and this list may be incompletee, but here are some reasons I found:
+Again, I didn't read through all of the code, so I may have missed some things and this list may be incomplete, but here are some reasons I found:
 
 - SMS - Some alerts can be saved to the messages store. SMS permissions allow it to do that.
 - Interact across users and manage users - The only thing I could find was a check to see which user is active to avoid saving the message multiple times (since the SMS message store is global). It checks if the logged in user is the admin user to restrict changing settings if not. It also checks if the user is logged in.
