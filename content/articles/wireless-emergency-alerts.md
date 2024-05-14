@@ -53,11 +53,11 @@ Any permissions listed without a link were found [here](https://github.com/Graph
 ## Why does WEA need these permissions?
 Again, I didn't read through all of the code, so I may have missed some things and this list may be incomplete, but here are some reasons I found:
 
-- *SMS* - Some alerts can be saved to the messages store. SMS permissions allow it to do that.
-- *Interact across users and manage users* - The only thing I could find was a check to see which user is active to avoid saving the message multiple times (since the SMS message store is global). It checks if the logged in user is the admin user to restrict changing settings if not. It also checks if the user is logged in.
-- *Bluetooth* - Checks if phone is connected to audio device. Checks if phone is connected to a "companion" device, and sends to companion device if necessary.
-- *Keyguard* - Display over the keyguard when the device is locked.
-- *Read (privileged) phone state* - Check if the user is in a call, get carrier config, get carrier ID (to reset settings if/when a new one is used), 
+- **SMS** - Some alerts can be saved to the messages store. SMS permissions allow it to do that.
+- **Interact across users and manage users** - The only thing I could find was a check to see which user is active to avoid saving the message multiple times (since the SMS message store is global). It checks if the logged in user is the admin user to restrict changing settings if not. It also checks if the user is logged in.
+- **Bluetooth** - Checks if phone is connected to audio device. Checks if phone is connected to a "companion" device, and sends to companion device if necessary.
+- **Keyguard** - Display over the keyguard when the device is locked.
+- **Read (privileged) phone state** - Check if the user is in a call, get carrier config, get carrier ID (to reset settings if/when a new one is used), 
 
 I think it's pretty obvious why the rest are there.
 
