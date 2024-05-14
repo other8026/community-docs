@@ -7,9 +7,9 @@ related = []
 
 +++
 ## Source
-The Wireless Emergency Alerts (WEA) app is open source, like the rest of GrapheneOS. You can find all of GrapheneOS's repositories listed on this page: https://grapheneos.org/source.
+The Wireless Emergency Alerts (WEA) app is open source, like the rest of GrapheneOS. You can find all of GrapheneOS's repositories listed [here](https://grapheneos.org/source).
 
-Wireless Emergency Alerts' package name is `com.android.cellbroadcastreceiver`, and you can find its code here: https://github.com/GrapheneOS/platform_packages_apps_CellBroadcastReceiver/.
+Wireless Emergency Alerts' package name is `com.android.cellbroadcastreceiver`, and here's the [GitHub repo](https://github.com/GrapheneOS/platform_packages_apps_CellBroadcastReceiver/).
 
 ## What it does
 WEA is a system app/service. Its purpose is to receive emergency alerts from the carrier and display them to the phone owner. There are varying levels of alerts and some alerts may behave differently depending on their severity or settings from the carrier.
@@ -42,7 +42,7 @@ The permissions are as follows:
 - `android.permission.READ_SMS` - Allows an application to read SMS messages. ([link](https://developer.android.com/reference/android/Manifest.permission#READ_SMS))
 - `android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOW` - Allows an application to use `android.view.WindowManager.LayoutsParams#SYSTEM_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS` to hide non-system-overlay windows.
 - `com.android.cellbroadcastservice.FULL_ACCESS_CELL_BROADCAST_HISTORY` - [...][a]llows the CellBroadcastReceiver app to have full access to the database inside CellBroadcastService. ([link](https://source.android.com/docs/core/ota/modular-system/cellbroadcast#permission-config))
-- `android.permission.RECEIVE_BOOT_COMPLETED` - Allows an application to receive the `Intent.ACTION_BOOT_COMPLETED` that is broadcast after the system finishes booting. `[link](https://developer.android.com/reference/android/Manifest.permission#RECEIVE_BOOT_COMPLETED)`
+- `android.permission.RECEIVE_BOOT_COMPLETED` - Allows an application to receive the `Intent.ACTION_BOOT_COMPLETED` that is broadcast after the system finishes booting. ([link](https://developer.android.com/reference/android/Manifest.permission#RECEIVE_BOOT_COMPLETED))
 - `android.permission.BLUETOOTH` - Allows applications to connect to paired bluetooth devices. ([link](https://developer.android.com/reference/android/Manifest.permission#BLUETOOTH))
 - `android.permission.BLUETOOTH_CONNECT` - Required to be able to advertise to nearby Bluetooth devices. ([link](https://developer.android.com/reference/android/Manifest.permission#BLUETOOTH_CONNECT))
 - `android.permission.POST_NOTIFICATIONS` - Allows an app to post notifications ([link](https://developer.android.com/reference/android/Manifest.permission#POST_NOTIFICATIONS))
@@ -59,4 +59,7 @@ Again, I didn't read through all of the code, so I may have missed some things a
 - Keyguard - Display over the keyguard when the device is locked.
 - Read (privileged) phone state - Check if the user is in a call, get carrier config, get carrier ID (to reset settings if/when a new one is used), 
 
-I think the rest are pretty obvious why they're there.
+I think it's pretty obvious why the rest are there.
+
+## Conclusion
+Hopefully after reading about this boring service/app, you agree that Wireless Emergency Alerts is not a "backdoor" or even worth worrying about. It's just a boring app that bothers you if it receives an alert to do so.
