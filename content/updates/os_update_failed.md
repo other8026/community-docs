@@ -3,7 +3,7 @@ title = "OS Update Failed"
 description = "Information on what's going on or what to do in the rare event that a GrapheneOS update fails"
 
 [extra]
-related = ["current_known_issues/no_valid_os_found.md"]
+related = []
 +++
 
 In very rare cases, GrapheneOS OS updates fail. This can be concerning for users when it happens, but the chances of a phone being "bricked" is very low.
